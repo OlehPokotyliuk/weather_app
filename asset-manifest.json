@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/OlehPokotyliuk/weather_app/static/css/main.e70fe11e.css",
+    "main.js": "/OlehPokotyliuk/weather_app/static/js/main.3edb6075.js",
+    "index.html": "/OlehPokotyliuk/weather_app/index.html",
+    "main.e70fe11e.css.map": "/OlehPokotyliuk/weather_app/static/css/main.e70fe11e.css.map",
+    "main.3edb6075.js.map": "/OlehPokotyliuk/weather_app/static/js/main.3edb6075.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e70fe11e.css",
+    "static/js/main.3edb6075.js"
+  ]
+}
