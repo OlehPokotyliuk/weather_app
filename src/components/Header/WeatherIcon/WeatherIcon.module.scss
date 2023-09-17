@@ -1,0 +1,12 @@
+.weatherCenter{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  p{
+    font-size: 17px;
+  }
+}
+.weatherIcon{
+  width: 50px;
+}

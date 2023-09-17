@@ -1,0 +1,34 @@
+.dateWidget{
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media(max-width:768px){
+    display: none;
+  }
+}
+.dateImage{
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  .month{
+    display: block;
+    width: 50px;
+  }
+}
+.paragraphs{
+  text-align: center;
+  margin-top: 15px;
+  p{
+    padding: 0;
+    margin: 0;
+    margin-left: 15px;
+    font-size: 17px;
+    font-weight: bold;
+  }
+  span{
+    margin-left: 22px;
+    font-size: 15px;
+  }
+}

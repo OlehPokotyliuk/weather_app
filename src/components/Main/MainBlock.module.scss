@@ -1,0 +1,42 @@
+.mainBlock{
+  display: flex;
+  flex-direction: row;
+  width: 98.6vw;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  
+}
+.forecast{
+  background: rgba(44, 44, 44, 0.7);
+  box-shadow: 5px 5px 5px rgba(44, 44, 44, .8);
+  margin: 10px;
+  width: 20vw;
+  border: 1px solid #fff;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  p{
+    padding: 0;
+    margin: 12px;
+  }
+  @media(max-width:768px){
+    width: 40vw;
+  }
+  .day{
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .month{
+    font-size: 20px;
+  }
+  .temperature{
+    font-size: 16px;
+    font-weight: bold;
+  }
+}
+.weatherIcon{
+  width: 70px;
+  height: 70px;
+}
